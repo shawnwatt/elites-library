@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import Alert from './team/mrbanks/components/alerts/Alert.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-</header>
+      <div className="App-header">
+      <Alert/>
+      </div>
+
     </div>
   );
 }
